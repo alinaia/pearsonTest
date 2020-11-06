@@ -1,0 +1,26 @@
+{
+  "name": "pearsontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startTest": "mocha --recursive --timeout 10000 test/searchFunctionality.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinaia/pearsonTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinaia/pearsonTest/issues"
+  },
+  "homepage": "https://github.com/alinaia/pearsonTest#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {
+    "chromedriver": "^86.0.0"
+  }
+}
