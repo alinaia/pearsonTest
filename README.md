@@ -46,11 +46,11 @@ Add npm packages to package.json
 What dependencies we need to set up for this automation project setup.
 
 1. selenium-webdriver
-npm install selenium-webdriver
+- npm install selenium-webdriver
 2. chromedriver
-npm install chromedriver
+- npm install chromedriver
 3. mocha
-npm install mocha
+- npm install mocha
 4. @types packages
 - @types/node
 - @types/mocha
