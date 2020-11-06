@@ -1,7 +1,7 @@
 # pearsonTest
 INTRODUCTION
 ------------
-This test if for verifying the Search bar and its functionality and if the correct link is opened after an article is accessed.
+This test if for verifying the Search functionality and if the correct link is opened after an article is accessed.
 
 Setup For Javascript Automation with Selenium
 Firstly, we w’ll do the the setup for Javascript automation. Below are the steps which we will follow
