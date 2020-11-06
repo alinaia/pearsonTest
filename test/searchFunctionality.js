@@ -25,9 +25,9 @@ describe('Access pearson.com', function () {
         await driver.wait(until.elementLocated(By.xpath("//div[@class='st-results-container']//article")), 10000); 
         driver.findElements(By.xpath("//article")).then(elements => console.log(elements.length));
     // Scroll to the Next button and click it
-        let element = driver.findElement(By.xpath("//ul[@class='pagination']//li[7]"));
+        let element = driver.findElement(By.xpath("//*[@class='pagination']//*[contains(text(), 'Next')]"));
         driver.executeScript("arguments[0].scrollIntoView(true);",element);
-        await driver.findElement(By.xpath("//ul[@class='pagination']//li[7]")).click();
+        await driver.findElement(By.xpath("//*[@class='pagination']//*[contains(text(), 'Next')]")).click();
     //Wait the total of search results from the second page and count them
         await driver.wait(until.elementLocated(By.xpath("//div[@class='st-results-container']//article")), 10000); 
         driver.findElements(By.xpath("//article")).then(elements => console.log(elements.length));    
